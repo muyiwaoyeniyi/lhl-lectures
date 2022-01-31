@@ -52,7 +52,7 @@ https://docs.google.com/presentation/d/1_NWYcPhS6Q3hQKXnh09Eufl7hs45yBLbUBZhWyvq
     - git remote -v (or add origin, rm origin)
     - git push
     - git pull
-- Documentation/Stack Overflow/Tech articles etc # TODO ADD links
+- Documentation/Stack Overflow/Tech blogs Ex. (https://dev.to/, https://hackernoon.com/, https://news.ycombinator.com/)
 - Mentors/Instructors/Cohort
 
 ## Exercise
