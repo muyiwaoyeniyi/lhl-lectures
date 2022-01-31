@@ -1,5 +1,10 @@
 # Lecture W1D2 - The Dev Workflow
 
+## Resources
+- Lecture Video: https://vimeo.com/671806056/3e448755a2
+- Code: https://github.com/muyiwaoyeniyi/lhl-lectures/tree/main/flex-m01w1
+
+
 ## Content
 
 - Introduction
