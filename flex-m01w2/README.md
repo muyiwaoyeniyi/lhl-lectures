@@ -1,7 +1,7 @@
 # Objects In Javascript
 
 ## Resources
- - Code Repo: "TODO"
+ - Code Repo: https://github.com/muyiwaoyeniyi/lhl-lectures/tree/main/flex-m01w2
  - Video: https://vimeo.com/manage/videos/673269300/308d342af2
 
 
