@@ -1,7 +1,7 @@
 # Callbacks
 
 ## Resources
- - Code Repo: "TODO"
+ - Code Repo: https://github.com/muyiwaoyeniyi/lhl-lectures/tree/main/flex-m01w2d2
  - Video: https://vimeo.com/674014992/f4edb4d0d4
 
 ## Content
