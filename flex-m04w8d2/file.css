@@ -1,0 +1,13 @@
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav-item {
+  background: gray;
+  padding: 20px;
+}
+
+.hide {
+  display: none;
+}
