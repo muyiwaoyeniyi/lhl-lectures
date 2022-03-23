@@ -74,27 +74,51 @@ $(() => {
   // };
 
   // OPTION 2
+  // const insertImages = (images) => {
+  //   const $imageContainer = $("#imagesContainer");
+  //   for (const image of images) {
+  //     const $image = getImageTemplate(image);
+  //     $imageContainer.append($image);
+  //   }
+  // };
+
+  // const getImageTemplate = (image) => {
+  //   const $img = $("<img>");
+  //   $img.addClass("image").attr("src", image.download_url);
+
+  //   const $author = $("<div>").text(`Author: ${image.author}`);
+
+  //   const $item = $("<div>").addClass("imageItem");
+  //   $item.append($img, $author);
+
+  //   return $item;
+  // };
+
+  // A THIRD OPTION with plain javascript ... document.createElement
+  // includes a small optimization by inserting all image nodes at once instead of on each loop
   const insertImages = (images) => {
-    const $imageContainer = $("#imagesContainer");
-    for (const image of images) {
-      const $image = getImageTemplate(image);
-      $imageContainer.append($image);
-    }
+    const imageTemplates = images.map((image) => {
+      return getImageTemplate(image);
+    });
+    document.getElementById("imagesContainer").append(...imageTemplates);
   };
 
   const getImageTemplate = (image) => {
-    const $img = $("<img>");
-    $img.addClass("image").attr("src", image.download_url);
+    const imageDiv = document.createElement("div");
+    imageDiv.classList.add("imageItem");
 
-    const $author = $("<div>").text(`Author: ${image.author}`);
+    const imgTag = document.createElement("img");
+    imgTag.src = image.download_url;
+    imgTag.classList.add("image");
 
-    const $item = $("<div>").addClass("imageItem");
-    $item.append($img, $author);
+    const authorDiv = document.createElement("div");
+    authorDiv.textContent = `Author: ${image.author}`;
 
-    return $item;
+    imageDiv.appendChild(imgTag);
+    imageDiv.appendChild(authorDiv);
+
+    return imageDiv;
   };
-
-  // A THIRD OPTION with plain javascript ... document.createElement
 
   $("#loadMore").on("click", () => {
     page = page + 1;
