@@ -1,0 +1,62 @@
+
+
+cars
+
+users
+id
+first_name  John
+last_name   Doe
+full_name "John Doe"
+active  -------  true
+cards_count  3
+is_deleted   --- true | false
+country_id
+
+john doe true 8 1
+Jane doe false 2 1
+
+countries
+name
+longitude
+latitude
+
+1 Canada, 1.222, -0.3333
+
+SELECT count(*) from cards where user_id = 1
+
+cards
+id
+type
+last_four
+expiry_month
+user_id
+
+
+purchase_orders
+id
+item_name
+amount
+created_at
+business_name
+rating
+
+
+customer_orders
+id
+item_name
+amount
+created_at
+customer_name
+time_of_day
+
+Polymorphic tables
+
+orders
+id
+item_name
+amount
+created_at
+name
+rating
+time_of_day
+order_type - customer_order | purchase_order
