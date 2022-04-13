@@ -26,7 +26,7 @@
 - The data type tells the database how much room to set aside to store the value _and_ allows the database to perform type validation on data before insertion (to protect the data integrity of the table)
 - Choosing the perfect data type is less of a concern nowadays because memory is now comparably cheap
 
-### Design Concepts
+### Design Concepts/Heuristics
 
 - Make fields required based on the records state upon initial creation (remember that additional data can be added to a record after it has been created)
 - Intelligent default values can be set for fields (such as the current timestamp for a `created_on` field)
@@ -54,7 +54,7 @@
    - Writing that data becomes complicated
  - The advantage to breaking data normalization is Query Performance
 
-### Design Concepts
+### Design Concepts/Heuristics
 
  - `NOT NULL` should be prefered, and you should utilize intelligent defaults
  - Try to get the database to work as hard as you can
