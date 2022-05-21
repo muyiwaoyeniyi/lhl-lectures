@@ -16,8 +16,8 @@ const CreateHotel = (props) => {
   const onSave = () => {
     if (hotelName.length > 0) {
       setError("");
-      setError("Please provide a name");
-      // props.onAddHotel(hotelName);
+      // setError("Please provide a name");
+      props.onAddHotel(hotelName);
     } else {
       setError("Please provide a name");
     }
