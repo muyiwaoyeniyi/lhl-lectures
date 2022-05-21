@@ -2,7 +2,7 @@
 
 ## Resources
  - code repo: https://github.com/muyiwaoyeniyi/lhl-lectures/tree/main/flex-m07w17d2
- - video link:
+ - video link: https://vimeo.com/712426017/dae00e75ef
 
 ## Value Vs Reference Review
 
