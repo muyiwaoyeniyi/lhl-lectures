@@ -1,7 +1,7 @@
 # Data Fetching & useEffect
 
- - Code Repo: https://github.com/muyiwaoyeniyi/lhl-lectures/tree/main/flex-m07w17d3
- - Video:
+ - Code Repo: https://github.com/muyiwaoyeniyi/lhl-lectures/tree/main/flex-m07w18
+ - Video: https://vimeo.com/713705111/26147c7420
 
 ### Two Rules for Hooks
 1. Don't call Hooks inside loops, conditions, or nested functions. **Always use Hooks at the top level of your React functions.**
