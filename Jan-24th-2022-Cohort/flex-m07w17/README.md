@@ -2,7 +2,7 @@
 
 ## Resources
 
- - Code Repo: https://github.com/muyiwaoyeniyi/lhl-lectures/Jan-24th-2022-Cohort/tree/main/flex-m07w17
+ - Code Repo: https://github.com/muyiwaoyeniyi/lhl-lectures/tree/main/Jan-24th-2022-Cohort/flex-m07w17
  - Video Lecture: https://vimeo.com/711053738/33494b6632
  - Slides: In the Code Repo. (Thanks to Ian)
 

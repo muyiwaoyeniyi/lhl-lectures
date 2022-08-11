@@ -2,7 +2,7 @@
 
 ### Resources
  - Video: https://vimeo.com/693805960/33a4206534
- - Repo: https://github.com/muyiwaoyeniyi/lhl-lectures/Jan-24th-2022-Cohort/tree/main/flex-m04w8d4
+ - Repo: https://github.com/muyiwaoyeniyi/lhl-lectures/tree/main/Jan-24th-2022-Cohort/flex-m04w8d4
 
 ### Content
 - [x] Responsive Design

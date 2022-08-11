@@ -1,7 +1,7 @@
 # Callbacks
 
 ## Resources
- - Code Repo: https://github.com/muyiwaoyeniyi/lhl-lectures/Jan-24th-2022-Cohort/tree/main/flex-m01w2d2
+ - Code Repo: https://github.com/muyiwaoyeniyi/lhl-lectures/tree/main/Jan-24th-2022-Cohort/flex-m01w2d2
  - Video: https://vimeo.com/674014992/f4edb4d0d4
 
 ## Content

@@ -1,7 +1,7 @@
 # CRUD with Express
 
 ## Resources
- - Code Repo: https://github.com/muyiwaoyeniyi/lhl-lectures/Jan-24th-2022-Cohort/tree/main/flex-m03w6d2
+ - Code Repo: https://github.com/muyiwaoyeniyi/lhl-lectures/tree/main/Jan-24th-2022-Cohort/flex-m03w6d2
  - Video Link: https://vimeo.com/685025738/a456861eb7
 
 ### Content

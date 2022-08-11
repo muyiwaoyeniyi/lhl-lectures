@@ -1,6 +1,6 @@
 ## Custom Hooks
 
- - Code Repo: https://github.com/muyiwaoyeniyi/lhl-lectures/Jan-24th-2022-Cohort/tree/main/flex-m07w18d2
+ - Code Repo: https://github.com/muyiwaoyeniyi/lhl-lectures/tree/main/Jan-24th-2022-Cohort/flex-m07w18d2
  - Video: https://vimeo.com/714809394/218ec5bd2b
 
 ## Content

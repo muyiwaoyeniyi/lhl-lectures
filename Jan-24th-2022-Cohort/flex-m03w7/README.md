@@ -1,7 +1,7 @@
 # HTTP Cookies & User Authentication
 
 ## Resources
- - Code Repo: https://github.com/muyiwaoyeniyi/lhl-lectures/Jan-24th-2022-Cohort/tree/main/flex-m03w7
+ - Code Repo: https://github.com/muyiwaoyeniyi/lhl-lectures/tree/main/Jan-24th-2022-Cohort/flex-m03w7
  - Video Link: https://vimeo.com/686124372/ce168d79f5
  - Slides (in this repo)
 

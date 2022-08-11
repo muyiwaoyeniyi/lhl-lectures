@@ -1,7 +1,7 @@
 # Rails Review
 
 ## Resources
-    - Code Repo: https://github.com/muyiwaoyeniyi/lhl-lectures/Jan-24th-2022-Cohort/tree/main/flex-m09w24
+    - Code Repo: https://github.com/muyiwaoyeniyi/lhl-lectures/tree/main/Jan-24th-2022-Cohort/flex-m09w24
     - Video: https://vimeo.com/727236905/a22f808bcf
 
 ## Starting with the Scaffold

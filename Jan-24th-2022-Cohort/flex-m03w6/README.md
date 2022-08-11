@@ -1,7 +1,7 @@
 # Web Servers 101
 
 ## Resources
- - Code Repo: https://github.com/muyiwaoyeniyi/lhl-lectures/Jan-24th-2022-Cohort/tree/main/flex-m03w6
+ - Code Repo: https://github.com/muyiwaoyeniyi/lhl-lectures/tree/main/Jan-24th-2022-Cohort/flex-m03w6
  - Video Link: https://vimeo.com/684671731/708246815e
  - Slides: in the repo
 

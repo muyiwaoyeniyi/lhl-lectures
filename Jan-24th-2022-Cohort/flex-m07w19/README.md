@@ -1,7 +1,7 @@
 # React Review
 
 ## Resources
- - Code Repo: https://github.com/muyiwaoyeniyi/lhl-lectures/Jan-24th-2022-Cohort/tree/main/flex-m07w19
+ - Code Repo: https://github.com/muyiwaoyeniyi/lhl-lectures/tree/main/Jan-24th-2022-Cohort/flex-m07w19
  - Video: https://vimeo.com/716003914/acaf1d9f8f
 
 ### Components

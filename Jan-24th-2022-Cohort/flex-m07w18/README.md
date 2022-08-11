@@ -1,6 +1,6 @@
 # Data Fetching & useEffect
 
- - Code Repo: https://github.com/muyiwaoyeniyi/lhl-lectures/Jan-24th-2022-Cohort/tree/main/flex-m07w18
+ - Code Repo: https://github.com/muyiwaoyeniyi/lhl-lectures/tree/main/Jan-24th-2022-Cohort/flex-m07w18
  - Video: https://vimeo.com/713705111/26147c7420
 
 ### Two Rules for Hooks

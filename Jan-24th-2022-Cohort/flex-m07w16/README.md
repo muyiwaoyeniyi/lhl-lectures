@@ -1,7 +1,7 @@
 # React Fundamentals
 
 ## Resources
- - Code Repo: https://github.com/muyiwaoyeniyi/lhl-lectures/Jan-24th-2022-Cohort/tree/main/flex-m07w16
+ - Code Repo: https://github.com/muyiwaoyeniyi/lhl-lectures/tree/main/Jan-24th-2022-Cohort/flex-m07w16
  - Video Link: https://vimeo.com/708624091/95ccc73789
  - Slides: In the code repo.
 

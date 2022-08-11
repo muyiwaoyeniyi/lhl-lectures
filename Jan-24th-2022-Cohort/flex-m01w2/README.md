@@ -1,7 +1,7 @@
 # Objects In Javascript
 
 ## Resources
- - Code Repo: https://github.com/muyiwaoyeniyi/lhl-lectures/Jan-24th-2022-Cohort/tree/main/flex-m01w2
+ - Code Repo: https://github.com/muyiwaoyeniyi/lhl-lectures/tree/main/Jan-24th-2022-Cohort/flex-m01w2
  - Video: https://vimeo.com/673269300/308d342af2
 
 

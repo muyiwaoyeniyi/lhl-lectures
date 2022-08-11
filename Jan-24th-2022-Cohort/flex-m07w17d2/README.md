@@ -1,7 +1,7 @@
 # Immutable Update Patterns
 
 ## Resources
- - code repo: https://github.com/muyiwaoyeniyi/lhl-lectures/Jan-24th-2022-Cohort/tree/main/flex-m07w17d2
+ - code repo: https://github.com/muyiwaoyeniyi/lhl-lectures/tree/main/Jan-24th-2022-Cohort/flex-m07w17d2
  - video link: https://vimeo.com/712426017/dae00e75ef
 
 ## Value Vs Reference Review

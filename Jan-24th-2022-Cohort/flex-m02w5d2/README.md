@@ -2,7 +2,7 @@
 
 ## Resources
  - video: https://vimeo.com/682367982/168f0e030f
- - code repo: https://github.com/muyiwaoyeniyi/lhl-lectures/Jan-24th-2022-Cohort/tree/main/flex-m02w5d2
+ - code repo: https://github.com/muyiwaoyeniyi/lhl-lectures/tree/main/Jan-24th-2022-Cohort/flex-m02w5d2
 
 ## Content
 - [X] Recap: Async Review / Callbacks

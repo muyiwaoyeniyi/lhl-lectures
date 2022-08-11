@@ -1,7 +1,7 @@
 # Class-based Components
 
  - Video Link: https://vimeo.com/721807828/7a9c7c26ad
- - Code Repo: https://github.com/muyiwaoyeniyi/lhl-lectures/Jan-24th-2022-Cohort/tree/main/flex-m08w21d2
+ - Code Repo: https://github.com/muyiwaoyeniyi/lhl-lectures/tree/main/Jan-24th-2022-Cohort/flex-m08w21d2
 
 ### Review ES6 Classes
 * Classes are a new addition to JavaScript in ES6, which gives JavaScript's `prototypal inheritence` system a more familiar `Class based Object Oriented inheritence` system.

@@ -2,7 +2,7 @@
 
 ## Resources
  - Video: https://vimeo.com/690059982/7d28530831
- - Repo: https://github.com/muyiwaoyeniyi/lhl-lectures/Jan-24th-2022-Cohort/tree/main/flex-m04w8d2
+ - Repo: https://github.com/muyiwaoyeniyi/lhl-lectures/tree/main/Jan-24th-2022-Cohort/flex-m04w8d2
 
 ## Content
 - [x] The Browser

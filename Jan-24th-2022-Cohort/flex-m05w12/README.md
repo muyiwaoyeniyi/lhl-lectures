@@ -2,7 +2,7 @@
 
 ## Resources
 
- - Code Repo:  https://github.com/muyiwaoyeniyi/lhl-lectures/Jan-24th-2022-Cohort/tree/main/flex-m05w12
+ - Code Repo:  https://github.com/muyiwaoyeniyi/lhl-lectures/tree/main/Jan-24th-2022-Cohort/flex-m05w12
  - Video: https://vimeo.com/698992156/3dace31f58
 
 ### node-postgres
