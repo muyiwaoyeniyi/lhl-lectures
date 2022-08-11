@@ -2,7 +2,7 @@
 
 ## Resources
 - Lecture Video:
-- Code: https://github.com/muyiwaoyeniyi/lhl-lectures/Aug 8th 2022 Cohort/tree/main/flex-m01w1
+- Code: https://github.com/muyiwaoyeniyi/lhl-lectures/tree/main/Aug-8th-2022-Cohort/flex-m01w1
 
 
 ## Content
