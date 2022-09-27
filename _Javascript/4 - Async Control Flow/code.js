@@ -1,21 +1,26 @@
-let counter = 0;
+// let counter = 0;
 
-// create a handle
-// const intervalHandle =
+// console.log("Here 1");
 
-setInterval((item) => {
-  counter++;
-  console.log(e);
-  console.log("Counter: ", counter);
-}, 1000);
-
-// const callback = function () {
-//   counter++;
-//   console.log("Counter: ", counter);
+// const cb = () => {
+//   counter = counter + 1;
+//   console.log(counter);
 // };
 
-// setInterval(callback, 1000);
+// console.log("Here 2");
 
-// [1, 2, 3].forEach((item) => {
-//   console.log(item);
-// });
+// setTimeout(cb, 3000);
+
+// console.log("Here 3");
+
+function randomDelay() {
+  while (true) {
+    if (Math.random() < 0.000000000000000000001) {
+      break;
+    }
+  }
+}
+
+const a = 1;
+randomDelay();
+console.log(a);

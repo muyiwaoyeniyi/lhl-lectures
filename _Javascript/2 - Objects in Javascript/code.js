@@ -29,17 +29,17 @@ const someLargeNumber = 1111111111111111111111111111111111;
 // const ary = [1, 2, 3, 4, 5];
 // const ary1 = [1, 2, 3, "4", "5", [2, 3]];
 
-// const obj = {
-//   name: "Taiwo",
-//   car_company: "Toyota",
-//   car: "Another car",
-//   model: {
-//     type: "camry",
-//     colour: "red",
-//   },
-//   ary: [2022, 2001],
-//   2: 4000,
-// };
+const obj = {
+  name: "Taiwo",
+  car_company: "Toyota",
+  car: "Another car",
+  model: {
+    type: "camry",
+    colour: "red",
+  },
+  ary: [2022, 2001],
+  2: 4000,
+};
 
 // console.log(obj.car_company);
 

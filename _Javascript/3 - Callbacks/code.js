@@ -93,26 +93,26 @@
 //   // second
 // };
 
-const destinations = [
-  "Vancouver",
-  "Calgary",
-  "Edmonton",
-  "Saskatoon",
-  "Regina",
-];
+// const destinations = [
+//   "Vancouver",
+//   "Calgary",
+//   "Edmonton",
+//   "Saskatoon",
+//   "Regina",
+// ];
 
-// // callback function
-const arg = function (value) {
-  console.log(value);
-};
+// // // callback function
+// const arg = function (value) {
+//   console.log(value);
+// };
 
 // destinations.forEach(arg);
 
-const forEachInReverse = (ary, cb) => {
-  ary.reverse().forEach(cb);
-};
+// const forEachInReverse = (ary, cb) => {
+//   ary.reverse().forEach(cb);
+// };
 
-forEachInReverse(destinations, arg);
+// forEachInReverse(destinations, arg);
 
 /***** Exercise ********/
 
@@ -121,3 +121,28 @@ forEachInReverse(destinations, arg);
 // the sum you passed in and log it to the console.
 
 // Ex. If you pass in 5 and 10. The final value logged into the console should be 25.
+
+// function add_10(v) {
+//   return v + 10;
+// }
+
+// function f(a, b, callback) {
+//   v = a + b;
+//   return callback(v);
+// }
+
+// console.log(f(5, 10, add_10));
+
+function myCallbackFunction(sum) {
+  let newSum = sum + 10;
+  console.log(newSum);
+}
+
+function myFunction(x = 1, y = 2, myCallbackFunction) {
+  let sum = x + y;
+  myCallbackFunction(sum);
+  // console.log(sum);
+}
+
+myFunction(2, 3, myCallbackFunction);
+// myCallbackFunction();
