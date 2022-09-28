@@ -2,7 +2,8 @@
 
 ## Resources
  - Code Repo: https://github.com/muyiwaoyeniyi/lhl-lectures/tree/main/Sept-19th-2022-Cohort/flex-m01w2
- - Video:
+ - Video: https://vimeo.com/754539875/197055c19a
+ - Video 2: https://vimeo.com/754539839/799725d82c
 
 
 ----------------
