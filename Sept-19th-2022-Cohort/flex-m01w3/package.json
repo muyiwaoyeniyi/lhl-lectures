@@ -1,0 +1,21 @@
+{
+  "name": "tdd",
+  "version": "1.0.0",
+  "description": "Testing code",
+  "main": "code.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "keywords": [
+    "testing"
+  ],
+  "author": "Taiwo",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0"
+  }
+}
