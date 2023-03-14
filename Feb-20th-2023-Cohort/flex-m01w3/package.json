@@ -1,0 +1,15 @@
+{
+  "name": "tdd",
+  "version": "1.0.0",
+  "description": "## Resources  - Video:  - Repo: https://github.com/muyiwaoyeniyi/lhl-lectures/tree/main/Feb-20th-2023-Cohort/flex-m01w3",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
+  }
+}

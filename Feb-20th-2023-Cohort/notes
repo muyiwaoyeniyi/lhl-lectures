@@ -1,0 +1,9 @@
+
+- Why do we tests
+- Types of testing (unit, browser, integration, end-to-end)
+- Modules review (naming convention for files and functions)
+- TDD with mocha and chai
+  - assert library
+  - mocha test runner
+  - then chai
+  - Quality of tests matters

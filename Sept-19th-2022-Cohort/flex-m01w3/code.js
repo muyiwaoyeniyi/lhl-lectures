@@ -4,14 +4,14 @@
 
 // const year = 2022;
 
-// // console.log(concatenate("1", "2"));
+// console.log(concatenate("1", "2"));
 
-// // Module export/require review
+// Module export/require review
 
-// // module.exports = concatenate;
+// module.exports = concatenate;
 
-// // module.exports.concat = concatenate;
-// // module.exports.time = Date.now();
+// module.exports.concat = concatenate;
+// module.exports.time = Date.now();
 
 // module.exports = {
 //   concat: concatenate,
