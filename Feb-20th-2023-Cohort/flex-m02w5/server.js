@@ -1,54 +1,40 @@
 const net = require("net");
-const port = 9876;
+const port = 5000;
 
 const server = net.createServer();
+
 server.listen(port, () => {
-  console.log(`Server is listening on port ${port}`);
+  console.log("server is listening");
 });
 
+// events
+// data, connection, end, close
+
 let id = 0;
+
 const nextId = () => {
-  return id++;
+  id = id + 1;
+  return id;
 };
 
-/* OR use a closure with an immediately invoked function!
-const nextId = (() => {
-  let id = 0;
-  return () => {
-    return id++;
-  }
-})();*/
+const allClients = [];
 
-const listOfClients = [];
-
-const writeToAllClients = (data, client, listOfClients) => {
-  for (const individualClient of listOfClients) {
-    if (individualClient.id !== client.id) {
-      individualClient.write(`\t: ${data}`);
-    }
-  }
-};
-
-// listening for when a client connects
 server.on("connection", (client) => {
-  // NOTE: client = connection
+  allClients.push(client);
+
   client.setEncoding("utf8");
 
-  console.log(client.toString());
+  client.clientId = nextId();
+  client.write("You're welcome to the chat room");
 
-  client.id = nextId();
-
-  listOfClients.push(client);
-
-  console.log(`${client.avatar} ${client.id} is connected to the server`);
-
-  // sending data to our client
-  client.write("Welcome to our server!\n");
-  client.write(`Your avatar is ${client.avatar} and id is ${client.id}\n`);
-
-  // listening for data coming from our client
   client.on("data", (data) => {
-    console.log(`${client.id}: ${data}`);
-    writeToAllClients(data, client, listOfClients);
+    console.log("data came from client id", client.clientId);
+    console.log("client sent this data", data);
+
+    for (const individualClient of allClients) {
+      if (individualClient.clientId !== client.clientId) {
+        individualClient.write(`Client ${client.clientId} said ${data}`);
+      }
+    }
   });
 });
