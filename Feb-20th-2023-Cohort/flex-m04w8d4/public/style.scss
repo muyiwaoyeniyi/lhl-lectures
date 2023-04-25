@@ -1,0 +1,30 @@
+@import "variables";
+
+.form-element {
+  background-color: $color-red;
+}
+
+.book {
+  background-color: $color-red;
+}
+
+.card {
+  @extend .book;
+  color: red;
+}
+
+#bookshelf {
+  background-color: chocolate;
+
+  .book {
+    font-size: 20px;
+  }
+
+  .car {
+    background-color: red;
+  }
+
+  .house {
+    color: purple;
+  }
+}
