@@ -1,0 +1,92 @@
+Countries
+id (uuid or serial)   name   continent
+1                     Canada  NA
+2                      USA   NA
+
+
+Users
+id       name      active   address_line_1     country_id (uuid or serial)
+1       John Doe    true          -            1
+
+
+Users
+id       name
+1       John Doe
+
+
+Users
+id       first_name  last_name
+1          John         Doe
+
+- Find me users with first_name John
+- Find me users with first_name/last_name John
+
+
+Table names - plural and use snake_case
+
+cars ----- [{ name: 'Honda' }]
+
+Customers
+organizationMembers
+organization_card
+
+Datatypes
+
+string/varchar, text, integer/bigint, boolean, date, datetime
+
+string/varchar/text AND everyone else
+
+age 10 or "10"
+
+string and text
+
+varchar(50) 255
+
+
+Users
+id       name      deleted
+1       John Doe    true
+
+
+Polymorphic tables
+
+purchase_orders
+id
+name
+date
+price
+
+customer_orders
+id
+coffee_name
+date
+price
+customer_name
+
+Orders
+id
+name
+date
+price
+customer_name
+order_type ['customer_order', 'purchase_order']
+
+
+Users
+id       name      country
+1       John Doe    Canada
+2       Jane Doe    canada
+3       James Doe    USA
+4       Jessica Doe  USa
+
+id       name      country
+1       John Doe    Canada
+2       Jane Doe    Canada
+3       James Doe    USA
+4       Jessica Doe  USA
+
+Albums
+id  album_name  artist_name       artist_age  artist_country genre
+1     X             Ariana Grande    25        USA            Rock
+2     Y            Ariana Grande     25        USA            Rock
+3    ABC           Kendrick Lamar    20        USA            Rock
