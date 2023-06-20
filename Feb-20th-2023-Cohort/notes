@@ -7,3 +7,30 @@
   - mocha test runner
   - then chai
   - Quality of tests matters
+
+
+
+Important Update 📣  Changes to Vimeo Upload Process - Immediate Effect
+
+Hey @instructors
+
+Effective immediately, we have made changes to the Vimeo upload process. Please note the following updates:
+
+Folder Hierarchy: The new structure is "Web Bootcamp > Program > W##" (e.g., "Web Bootcamp > Immersive > W02").
+
+Video File Naming: Rename your recordings as
+
+<Lecture Mnemonic>: <Lecture Title> (MMM DD, YYYY[Cohort: East | West | All | Day | Eve]) - <Instructor Name>
+
+Examples:
+
+Immersive: "W02D3: Networking with TCP and HTTP (May 29, 2023 East) - Dom
+Flex: "M1W2 - Objects in JS (May 29, 2023 Eve) - Dom
+
+Flex: "M7W17 - Component-Based UI with React (June 13, 2023 Day) - Taiwo
+
+Previous Recordings: Access them in the "DO NOT USE - Web Flex - OLD" folder.
+
+
+
+Taiwo Oyeniyi delivers an "Custom Hooks" lecture to cohort Web Flex Day October 17 2023 on 2023.03.02.
