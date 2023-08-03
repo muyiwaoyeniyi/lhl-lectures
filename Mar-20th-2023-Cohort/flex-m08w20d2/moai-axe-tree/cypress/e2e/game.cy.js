@@ -4,9 +4,7 @@ describe("Game tests", () => {
   });
 
   it("Test that I can make a selection", () => {
-    // cy.visit("http://localhost:3000/");
-
-    cy.get(`[data-testid="result_footer"]`).as("result_footer"); // aliasing
+    cy.get(`[data-testid="result_footer"]`).as("result_footer");
 
     cy.get("@result_footer").should("contain", "Waiting for your choice!");
 
@@ -17,8 +15,8 @@ describe("Game tests", () => {
     cy.get(".computer button:contains(?)").should("have.length", 2);
   });
 
-  it("Fetches high scores", () => {
-    // cy.visit("http://localhost:3000/");
+  it("fetched high scores", () => {
+    cy.get(`[data-testid="result_footer"]`).as("result_footer");
 
     cy.intercept("**/andydlindsay/moai-axe-tree/high-scores", {
       fixture: "high-scores",
@@ -28,6 +26,6 @@ describe("Game tests", () => {
 
     cy.wait("@high_scores_data");
 
-    cy.get(`[data-testid="result_footer"]`).contains("Karis");
+    cy.get("@result_footer").contains("Karis");
   });
 });
