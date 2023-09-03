@@ -3,11 +3,11 @@
 ## Resources
 
  - Video Link: https://vimeo.com/857647967/4db9a979b2?share=copy
- - Code Repo: https://github.com/muyiwaoyeniyi/lhl-lectures/tree/main/Mar-20th-2022-Cohort/flex-m09w25
+ - Code Repo: https://github.com/muyiwaoyeniyi/lhl-lectures/tree/main/Mar-20th-2022-Cohort/flex-m09w23
 
 ## Items
 
-Today's lecture covered setting up a Rails JSON api (with serializers, cors), React frontend, performance optimizations (N+1 queries).
+Today's lecture covered setting up a Rails JSON api (with cors), React frontend (with React Router), performance optimizations (N+1 queries).
 
  ## Resources
 
